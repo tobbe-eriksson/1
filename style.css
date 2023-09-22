@@ -1,0 +1,144 @@
+body {
+    background-color: #D7D6D6;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(57, 62, 65);
+    color: #D7D6D6; 
+    width: 100%;
+    padding: 20px;
+    border-bottom: 2px solid rgb(57, 62, 65);
+    display: flex;
+}
+
+.social-icons {
+    display: flex;
+    gap: 80px;
+    margin-left: 87%;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: .2s ease-in-out;
+}
+
+.social-icon img:hover {
+    transform: scale(1.5);
+}
+
+main {
+    margin-top: 70px;
+}
+
+.box {
+    display: block;
+   
+}
+
+.item {
+    width: 50%;
+    height: 120px;
+    background-color: rgb(57, 62, 65);
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 90px;
+    
+}
+
+.item2 {
+    width: 1440px;
+    height: 235px;
+    background: rgb(215,214,214);
+    background: -moz-linear-gradient(0deg, rgba(215,214,214,1) 0%, rgba(57,62,65,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(215,214,214,1) 0%, rgba(57,62,65,1) 100%);
+    background: linear-gradient(0deg, rgba(215,214,214,1) 0%, rgba(57,62,65,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d7d6d6",endColorstr="#393e41",GradientType=1);
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+p {
+    color: #D7D6D6;
+}
+
+a {
+    color: #D7D6D6;
+    text-decoration: none;
+
+}
+
+.center {
+display: block;
+margin-left: 190px;
+margin-right: auto;
+width: 50%;
+
+}
+
+.rubrik {
+    text-decoration: underline;
+}
+
+.pageTitle {
+    padding-top: 10px;
+}
+
+.footer {
+    color: #D7D6D6;
+    text-align: center;
+    background-color: rgb(57, 62, 65);
+    height: 25px;
+    padding-top: 12px;
+    padding-right: 12px;
+    margin-bottom: 0px;
+}
+
+.profilbild {
+    background-color: rgb(57, 62, 65);
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-left: 0px;
+    
+}
+
+h1 {
+    color: #D7D6D6;
+    text-align: left;
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #D7D6D6;
+}
+
+h3 {
+    color: #D7D6D6;
+    text-align: left;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
