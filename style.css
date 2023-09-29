@@ -4,8 +4,6 @@ body {
     margin: 0px;
 }
 
-
-
 header {
     height: 30px;
     position: absolute;
@@ -18,7 +16,6 @@ header {
     padding-bottom: 20px;
     display: flex;
 }
-
 
 .social-icon img {
     width: 40px;
@@ -51,10 +48,10 @@ main {
 
     height: 200px;
     background: rgb(0,0,0);
-background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,62,65,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,62,65,1) 100%);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,62,65,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#393e41",GradientType=1);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,62,65,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,62,65,1) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,62,65,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#393e41",GradientType=1);
     padding: 0px;
     margin: 0px;
     text-align: center;
@@ -74,7 +71,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 }
 
 p {
-    color: #D7D6D6;
+    color: #393e41;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 a {
@@ -153,4 +152,18 @@ h3 {
 
 .sI1 {
     margin-left: 10px;
+}
+
+.kontaktSida {
+    text-align: center;
+}
+
+.kontaktInfo {
+    text-align: center;
+    font-weight: 400;
+}
+
+.hTitle {
+    margin-left: 980px;
+    font-weight: 900;
 }
